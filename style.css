@@ -1,0 +1,129 @@
+/* Style général */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1f0f01;
+  min-height: 100vh; 
+  padding-bottom: 60px; 
+}
+
+/* Barre de navigation */
+header {
+  background-color: #9B59B6; 
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-left: 30px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  color: #FFD700; 
+}
+
+/* Section générale */
+section {
+  padding: 30px 20px;
+  margin: 20px;
+  background-color: rgb(235, 234, 234);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #9B59B6;
+}
+
+/* Banner image */
+.banner-image {
+  width: 100%; 
+  height: auto;
+  margin-top: 20px;
+  max-width: 50%;
+  max-height: 500px;
+}
+
+/* Personnages - Cards */
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #9B59B6;
+}
+
+/* Formulaire */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form textarea, form select {
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #9B59B6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #6A1B9A;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2C2C2C;
+  color: white;
+  position: relative; 
+  margin-top: 20px; 
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex: 1; 
+}
